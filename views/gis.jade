@@ -1,32 +1,50 @@
 doctype strict
 html
-  head
-    title 2D OpenAPI 샘플
-    script(language='JavaScript', type='text/javascript', src='http://map.vworld.kr/js/vworldMapInit.js.do?apiKey=FA38BC92-346A-354B-B774-8BF75ACD9D3A')
-    script(type='text/javascript').
-      var map = null;
-      vworld.showMode = false;
-      vworld.init(
-      "cont1"	// rootDiv
-      , "map-first" // mapType(map=배경지도, raster=항공사진, earth=3D지도)
-      ,function() {
-      map = this.vmap;
-      //기본맵 설정
-      map.setBaseLayer(map.vworldBaseMap);
-      map.setControlsType({"simpleMap":true});	//간단한 화면
-      //화면중심점과 레벨로 이동
-      map.setCenterAndZoom(14135792.751626197, 4512051.278263237, 12);
-      }
-      ,function (obj){SOPPlugin = obj; }//initCallback
-      ,function (msg){alert('oh my god');}//failCallback
-      );
-      //2D/3D 전환후에 실행할 콜백함수 지정
-      function setModeCallback(){
-      vworld.setModeCallback(modecallback);
-      }
+  script(type='text/javascript', src='http://map.vworld.kr/js/vworldMapInit.js.do?version=2.0&apiKey=FA38BC92-346A-354B-B774-8BF75ACD9D3A')
   body
-    div
-      button(type='button', onclick='javascript:vworld.setMode(0);', name='mode0') 2D배경지도
-      button(type='button', onclick='javascript:vworld.setMode(1);', name='mode1') 2D항공사진
-    div(style='display:inline;float:left;width:100%;height:500px;left:0px;top:0px')
-      #cont1(style='width:1000px;height:650px;left:0px;top:0px')
+    #vmap(style='width:100%;height:700px;left:0px;top:0px')
+    #buttons
+      | 입력데이터
+      input#param(type='text', value='', size='25')
+      input#mousex(type='text', name='q', value='0', maxlength='20', style='ime-mode:active')
+      input#mousey(type='text', name='q', value='0', maxlength='20', style='ime-mode:active')
+      br
+      button(type='button', onclick='javascript:setThemeLayer5();') 도시지역추가
+      button(type='button', onclick='javascript:setThemeLayer6();') 교통CCTV추가
+      button(type='button', onclick='javascript:setThemeLayer4();') tileCahceLayer(산사태위험지역)
+      button(type='button', onclick='javascript:setVisible(false);') WMS숨기기
+      button(type='button', onclick='javascript:setVisible(true);') WMS보기
+      button(type='button', onclick='javascript:removeAllObject();') 초기화
+      br
+      button(type='button', onclick='javascript:checkEventExists();') 이벤트확인
+      button(type='button', onclick='javascript:setThemeLayer9();') 행정경계지도
+      button(type='button', onclick='javascript:kmlLayerAdd();') kml레이어
+      button(type='button', onclick='javascript:setMode(vw.ol3.BasemapType.GRAPHIC_GRAY);') 회색지도
+      button(type='button', onclick='javascript:setMode(vw.ol3.BasemapType.GRAPHIC_NIGHT);') 야간사진
+      button(type='button', onclick='javascript:setMode(vw.ol3.BasemapType.GRAPHIC);') 배경지도
+      br
+      button(type='button', onclick='javascript:addMarkerLayer();') 마커입력
+      button(type='button', onclick='javascript:checkMarkerParam();') 마커입력오류
+      button(type='button', onclick='javascript:hideMarker();') 마커숨기기
+      button(type='button', onclick='javascript:showMarker();') 마커보기
+      button(type='button', onclick='javascript:hideAllMarker();') 마커전체숨기기
+      button(type='button', onclick='javascript:showAllMarker();') 마커전체보기
+      button(type='button', onclick='javascript:removeMarker();') 마커삭제
+      button(type='button', onclick='javascript:removeAllMarker();') 마커전체삭제
+      br
+      button(type='button', onclick='addPieChart();') 차트추가
+      button(type='button', onclick='pieChartHide();') 차트숨기기
+      button(type='button', onclick='pieChartShow();') 차트보이기
+      button(type='button', onclick='clearChart();') 차트레이어삭제
+      br
+      button(type='button', onclick="javascript:jsCreatRoute('test1');", name='addpin') 경로레이어생성
+      button(type='button', onclick="javascript:jsAddRouteEvent('test1');", name='addpin') 경로추가
+      button(type='button', onclick="javascript:jsInit('test1');", name='addpin') 입력완료
+      button(type='button', onclick="javascript:setColor('test1');", name='addpin') 라인색상교체
+      button(type='button', onclick="javascript:setWidth('test1');", name='addpin') 라인크기교체
+      button(type='button', onclick="javascript:closeAllPop('test1');", name='addpin') 팝업전체닫기
+      button(type='button', onclick="javascript:openAllPop('test1');", name='addpin') 팝업전체열기
+      button(type='button', onclick="javascript:jsRemoveRoute('test1');", name='addpin') 경로레이어삭제
+      br
+      script(type='text/javascript', src='./javascripts/vWorldMap.js')
+
