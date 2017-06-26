@@ -9,7 +9,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 var gis = require('./routes/map');
 var kml = require('./routes/kml');
-var daumLoadView = require('./routes/daumLoadView');
+var daumRoadView = require('./routes/daumRoadView');
 
 var app = express();
 
@@ -31,7 +31,7 @@ app.use('/', index);
 app.use('/users', users);
 app.use('/gis', gis);
 app.use('/kml', kml);
-app.use('/loadmap', daumLoadView);
+app.use('/roadmap', daumRoadView);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
