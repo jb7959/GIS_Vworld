@@ -13,6 +13,7 @@ var kml = require('./routes/kml');
 var log = require('./routes/log');
 var daumRoadView = require('./routes/daumRoadView');
 var ziumGisService = require('./routes/ziumGisService');
+var translateEPSG = require('./routes/TranslateEPSG');
 
 var app = express();
 
@@ -37,6 +38,14 @@ app.use('/kml', kml);
 app.use('/roadmap', daumRoadView);
 app.use('/ziumGIS', ziumGisService);
 app.use('/log', log);
+app.get('/translateEPSG',translateEPSG);
+
+/*app.get('/translateEPSG',function (req, res) {
+    var latitude = req.param("latitude");
+    console.log(latitude);
+    //var longitude = request.params.longitude;
+    res.send("latitude" + latitude);
+});*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
