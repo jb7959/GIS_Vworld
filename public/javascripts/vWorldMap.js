@@ -291,6 +291,7 @@ function addTextLayer(fileObj) {
                             return function(e) {
                                 var contents = e.target.result;
                                 value = contents;
+                                console.log(epsg+"$$"+distance+"$$"+value);
                                 textLayer.readDraw(epsg, distance, value);
                             };
                         })(f);

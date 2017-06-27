@@ -5,11 +5,14 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+
 var index = require('./routes/index');
 var users = require('./routes/users');
 var gis = require('./routes/map');
 var kml = require('./routes/kml');
+var log = require('./routes/log');
 var daumRoadView = require('./routes/daumRoadView');
+var ziumGisService = require('./routes/ziumGisService');
 
 var app = express();
 
@@ -32,6 +35,8 @@ app.use('/users', users);
 app.use('/gis', gis);
 app.use('/kml', kml);
 app.use('/roadmap', daumRoadView);
+app.use('/ziumGIS', ziumGisService);
+app.use('/log', log);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -52,6 +57,9 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+
+
 
 //서버 실행
 app.listen(9002, function () {

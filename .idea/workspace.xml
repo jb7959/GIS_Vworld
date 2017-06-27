@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8881790-eafb-4928-b4a9-945fc269a2ee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LogFile/4326_sample.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/vWorldMap.js" afterPath="$PROJECT_DIR$/public/javascripts/vWorldMap.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,31 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="gis.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/gis.jade">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="daumRoadView.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+              <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -51,8 +33,8 @@
       <file leaf-file-name="vWorldMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/vWorldMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="598">
+              <caret line="293" column="32" lean-forward="false" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="75" />
               <folding>
                 <element signature="e#99#359#0" expanded="false" />
                 <element signature="e#542#878#0" expanded="false" />
@@ -62,12 +44,13 @@
                 <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
                 <element signature="n#!!block;n#setVisible#0" expanded="false" />
                 <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
                 <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
                 <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+                <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
                 <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
                 <element signature="n#!!block;n#addMarker#0" expanded="false" />
                 <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-                <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
                 <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
                 <element signature="n#!!block;n#hideMarker#0" expanded="false" />
                 <element signature="n#!!block;n#showMarker#0" expanded="false" />
@@ -96,31 +79,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gis.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/gis.jade">
+      <file leaf-file-name="ziumGisService.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="665">
+              <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daumRoadView.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/daumRoadView.jade">
+      <file leaf-file-name="ziumGisService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/ziumGisService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="646">
+              <caret line="289" column="46" lean-forward="true" selection-start-line="289" selection-start-column="46" selection-end-line="289" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+                <element signature="e#143#403#0" expanded="false" />
+                <element signature="e#718#1056#0" expanded="false" />
+                <element signature="n#!!block;n#isMobile#0" expanded="false" />
+                <element signature="n#!!block;n#setMode#0" expanded="false" />
+                <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
+                <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
+                <element signature="n#!!block;n#setVisible#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+                <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
+                <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
+                <element signature="n#!!block;n#addMarker#0" expanded="false" />
+                <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
+                <element signature="n#!!block;n#hideMarker#0" expanded="false" />
+                <element signature="n#!!block;n#showMarker#0" expanded="false" />
+                <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#removeMarker#0" expanded="false" />
+                <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#addPieChart#0" expanded="false" />
+                <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
+                <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
+                <element signature="n#!!block;n#clearChart#0" expanded="false" />
+                <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
+                <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
+                <element signature="n#!!doc;n#mClick1#0" expanded="false" />
+                <element signature="n#!!block;n#mClick1#0" expanded="false" />
+                <element signature="n#!!block;n#mClick2#0" expanded="false" />
+                <element signature="n#!!block;n#jsInit#0" expanded="false" />
+                <element signature="n#!!block;n#setColor#0" expanded="false" />
+                <element signature="n#!!block;n#setWidth#0" expanded="false" />
+                <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
+                <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
+                <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
+                <element signature="n#!!block;n#openAllPop#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4326_sample.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LogFile/4326_sample.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daumRoadMap.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
+      <file leaf-file-name="daumRoadView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+            <state relative-caret-position="285">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,21 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kml.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/kml.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="57">
+              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -168,6 +190,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>japan</find>
+      <find>distance</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,20 +209,27 @@
       <list>
         <option value="$PROJECT_DIR$/views/map.jade" />
         <option value="$PROJECT_DIR$/routes/map.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/kmL.js" />
         <option value="$PROJECT_DIR$/public/javascripts/Kml.js" />
         <option value="$PROJECT_DIR$/routes/kml.js" />
         <option value="$PROJECT_DIR$/views/kml.jade" />
         <option value="$PROJECT_DIR$/views/gis.jade" />
-        <option value="$PROJECT_DIR$/public/javascripts/vWorldMap.js" />
         <option value="$PROJECT_DIR$/public/kml/ZiumksTestingGIS.kml" />
         <option value="$PROJECT_DIR$/routes/daumLoadView.js" />
         <option value="$PROJECT_DIR$/views/daumLoadView.jade" />
         <option value="$PROJECT_DIR$/routes/daumRoadView.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/daumRoadView.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/daumRoadMap.js" />
+        <option value="$PROJECT_DIR$/routes/zimGisService.js" />
+        <option value="$PROJECT_DIR$/views/ziumGisService" />
+        <option value="$PROJECT_DIR$/routes/ziumGisService.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/routes/log.js" />
+        <option value="$PROJECT_DIR$/LogFile/4326_sample.txt" />
+        <option value="$PROJECT_DIR$/public/javascripts/vWorldMap.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ziumGisService.js" />
+        <option value="$PROJECT_DIR$/views/ziumGisService.jade" />
       </list>
     </option>
   </component>
@@ -213,7 +243,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -233,8 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -289,28 +319,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ziumksGIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ziumksGIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -340,7 +348,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="LogFile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,11 +366,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\안재열\Documents\ziumksGIS\LogFile" />
       <recent name="C:\Users\안재열\Documents\ziumksGIS\routes" />
+      <recent name="C:\Users\안재열\Documents\ziumksGIS\public\temp" />
       <recent name="C:\Users\안재열\Documents\ziumksGIS\views" />
       <recent name="C:\Users\안재열\Documents\ziumksGIS\public\kml" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\안재열\Documents\ziumksGIS" />
       <recent name="C:\Users\안재열\Documents\ziumksGIS\public\kml" />
       <recent name="C:\Users\안재열\Documents\ziumksGIS\public" />
     </key>
@@ -789,7 +800,9 @@
       <workItem from="1497933468358" duration="6480000" />
       <workItem from="1498093080902" duration="1530000" />
       <workItem from="1498199849258" duration="7448000" />
-      <workItem from="1498435767266" duration="5358000" />
+      <workItem from="1498435767266" duration="9030000" />
+      <workItem from="1498457046486" duration="10775000" />
+      <workItem from="1498540620555" duration="6002000" />
     </task>
     <task id="LOCAL-00001" summary="다음 로드뷰 연동 모듈 추가 및 KML 오버레이 추가">
       <created>1498440414871</created>
@@ -798,15 +811,22 @@
       <option name="project" value="LOCAL" />
       <updated>1498440414871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="다음 로드뷰 마커 및 인포윈도우 추가&#10;">
+      <created>1498443707625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498443707625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20816000" />
+    <option name="totallyTimeSpent" value="41265000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -817,7 +837,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18518518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18518518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -835,7 +855,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -846,13 +866,40 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="다음 로드뷰 연동 모듈 추가 및 KML 오버레이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="다음 로드뷰 연동 모듈 추가 및 KML 오버레이 추가" />
+    <MESSAGE value="다음 로드뷰 마커 및 인포윈도우 추가&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="다음 로드뷰 마커 및 인포윈도우 추가&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/kml.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -865,7 +912,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,12 +951,13 @@
             <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
             <element signature="n#!!block;n#setVisible#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
             <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
             <element signature="n#!!block;n#addMarker#0" expanded="false" />
             <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
             <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
             <element signature="n#!!block;n#hideMarker#0" expanded="false" />
             <element signature="n#!!block;n#showMarker#0" expanded="false" />
@@ -943,7 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="101" lean-forward="true" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,12 +1061,13 @@
             <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
             <element signature="n#!!block;n#setVisible#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
             <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
             <element signature="n#!!block;n#addMarker#0" expanded="false" />
             <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
             <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
             <element signature="n#!!block;n#hideMarker#0" expanded="false" />
             <element signature="n#!!block;n#showMarker#0" expanded="false" />
@@ -1071,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,12 +1154,13 @@
             <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
             <element signature="n#!!block;n#setVisible#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
             <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
             <element signature="n#!!block;n#addMarker#0" expanded="false" />
             <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
             <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
             <element signature="n#!!block;n#hideMarker#0" expanded="false" />
             <element signature="n#!!block;n#showMarker#0" expanded="false" />
@@ -1160,14 +1203,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/kml/2012-02-10.kml" />
     <entry file="file://$PROJECT_DIR$/public/kml/KML_Samples.kml" />
     <entry file="file://$PROJECT_DIR$/public/kml/timezones.kml" />
@@ -1182,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="101" lean-forward="false" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,34 +1230,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/kml.js">
+    <entry file="file://$PROJECT_DIR$/views/kml.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/map.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/kml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/ziumGisService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/gis.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/vWorldMap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="598">
+          <caret line="293" column="32" lean-forward="false" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="75" />
           <folding>
             <element signature="e#99#359#0" expanded="false" />
             <element signature="e#542#878#0" expanded="false" />
@@ -1233,12 +1335,13 @@
             <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
             <element signature="n#!!block;n#setVisible#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
             <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
             <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
             <element signature="n#!!block;n#addMarker#0" expanded="false" />
             <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
             <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
             <element signature="n#!!block;n#hideMarker#0" expanded="false" />
             <element signature="n#!!block;n#showMarker#0" expanded="false" />
@@ -1266,66 +1369,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/ziumGisService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/gis.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/kml.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="646">
+          <caret line="289" column="46" lean-forward="true" selection-start-line="289" selection-start-column="46" selection-end-line="289" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#143#403#0" expanded="false" />
+            <element signature="e#718#1056#0" expanded="false" />
+            <element signature="n#!!block;n#isMobile#0" expanded="false" />
+            <element signature="n#!!block;n#setMode#0" expanded="false" />
+            <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
+            <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
+            <element signature="n#!!block;n#setVisible#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
+            <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
+            <element signature="n#!!block;n#addMarker#0" expanded="false" />
+            <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
+            <element signature="n#!!block;n#hideMarker#0" expanded="false" />
+            <element signature="n#!!block;n#showMarker#0" expanded="false" />
+            <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#removeMarker#0" expanded="false" />
+            <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#addPieChart#0" expanded="false" />
+            <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
+            <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
+            <element signature="n#!!block;n#clearChart#0" expanded="false" />
+            <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
+            <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
+            <element signature="n#!!doc;n#mClick1#0" expanded="false" />
+            <element signature="n#!!block;n#mClick1#0" expanded="false" />
+            <element signature="n#!!block;n#mClick2#0" expanded="false" />
+            <element signature="n#!!block;n#jsInit#0" expanded="false" />
+            <element signature="n#!!block;n#setColor#0" expanded="false" />
+            <element signature="n#!!block;n#setWidth#0" expanded="false" />
+            <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
+            <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
+            <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
+            <element signature="n#!!block;n#openAllPop#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/daumRoadView.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
+    <entry file="file://$PROJECT_DIR$/LogFile/4326_sample.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        <state relative-caret-position="285">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding />
         </state>
       </provider>
