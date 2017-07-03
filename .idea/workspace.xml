@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8881790-eafb-4928-b4a9-945fc269a2ee" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogFile/4326_sample.txt" afterPath="$PROJECT_DIR$/LogFile/4326_sample.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,72 +17,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ziumGisService.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ziumGisService.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ziumGisService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/ziumGisService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="627" column="12" lean-forward="false" selection-start-line="627" selection-start-column="12" selection-end-line="627" selection-end-column="12" />
+            <state relative-caret-position="323">
+              <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
               <folding>
-                <marker date="1498614472849" expanded="false" signature="0:40" ph="/** Created by 안재열 on 2017-06-26. ...*/" />
-                <marker date="1498614472849" expanded="false" signature="143:403" ph="{&quot;basemapType&quot;: vw.ol3.BasemapType.GRAPHIC...}" />
-                <marker date="1498614472849" expanded="false" signature="719:1057" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="1081:1518" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="1892:1933" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="1963:1984" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="2015:2524" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="2552:2662" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="2707:3256" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="3301:3521" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="3566:3791" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="3848:4764" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="4803:6139" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="6184:6629" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="6652:7579" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="7609:7890" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="7969:8342" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="8370:8852" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="8876:8964" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="8987:9104" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="9131:9283" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="9310:9462" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="9488:9865" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="9894:10048" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="10073:11621" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="11648:11856" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="11882:12088" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="12112:12571" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="12604:13000" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="13037:13233" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="13236:13253" ph="/** 말풍선이벤트 ...*/" />
-                <marker date="1498614472849" expanded="false" signature="13278:13632" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="13659:14013" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="14041:14233" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="14263:14499" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="14529:14752" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="14787:15066" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="15100:15327" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="15359:15565" ph="{...}" />
-                <marker date="1498614472849" expanded="false" signature="15596:15800" ph="{...}" />
+                <element signature="e#0#40#0" expanded="false" />
+                <element signature="e#750#1088#0" expanded="false" />
+                <element signature="n#!!block;n#isMobile#0" expanded="false" />
+                <element signature="n#!!block;n#setMode#0" expanded="false" />
+                <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
+                <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
+                <element signature="n#!!block;n#setVisible#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
+                <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+                <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
+                <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
+                <element signature="n#!!block;n#addMarker#0" expanded="false" />
+                <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
+                <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
+                <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
+                <element signature="n#!!block;n#hideMarker#0" expanded="false" />
+                <element signature="n#!!block;n#showMarker#0" expanded="false" />
+                <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#removeMarker#0" expanded="false" />
+                <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
+                <element signature="n#!!block;n#addPieChart#0" expanded="false" />
+                <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
+                <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
+                <element signature="n#!!block;n#clearChart#0" expanded="false" />
+                <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
+                <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
+                <element signature="n#!!doc;n#mClick1#0" expanded="false" />
+                <element signature="n#!!block;n#mClick1#0" expanded="false" />
+                <element signature="n#!!block;n#mClick2#0" expanded="false" />
+                <element signature="n#!!block;n#jsInit#0" expanded="false" />
+                <element signature="n#!!block;n#setColor#0" expanded="false" />
+                <element signature="n#!!block;n#setWidth#0" expanded="false" />
+                <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
+                <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
+                <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
+                <element signature="n#!!block;n#openAllPop#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4326_sample2.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LogFile/4326_sample2.txt">
+      <file leaf-file-name="ziumGisService.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="646">
+              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -92,28 +80,8 @@
       <file leaf-file-name="daumRoadMap.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslaterDaumToVworld.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Business/Translater/TranslaterDaumToVworld.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4326_sample.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LogFile/4326_sample.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="101" lean-forward="false" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+              <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -122,38 +90,8 @@
       <file leaf-file-name="0628_sample.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="daumRoadView.jade" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/daumRoadView.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ziumGisService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/ziumGisService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TranslateEPSG.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/TranslateEPSG.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="57">
+              <caret line="3" column="112" lean-forward="true" selection-start-line="3" selection-start-column="112" selection-end-line="3" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -211,10 +149,10 @@
         <option value="$PROJECT_DIR$/views/ziumGisService.jade" />
         <option value="$PROJECT_DIR$/views/daumRoadView.jade" />
         <option value="$PROJECT_DIR$/LogFile/0628_sample.txt" />
-        <option value="$PROJECT_DIR$/public/javascripts/ziumGisService.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/daumRoadMap.js" />
-        <option value="$PROJECT_DIR$/routes/TranslateEPSG.js" />
         <option value="$PROJECT_DIR$/Business/Translater/TranslaterDaumToVworld.js" />
+        <option value="$PROJECT_DIR$/routes/TranslateEPSG.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/daumRoadMap.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/ziumGisService.js" />
       </list>
     </option>
   </component>
@@ -228,7 +166,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -248,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,20 +210,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ziumksGIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ziumksGIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,14 +280,13 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_zium/ziumks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -806,7 +730,10 @@
       <workItem from="1498435767266" duration="9030000" />
       <workItem from="1498457046486" duration="10775000" />
       <workItem from="1498540620555" duration="16109000" />
-      <workItem from="1498608865429" duration="8432000" />
+      <workItem from="1498608865429" duration="8499000" />
+      <workItem from="1499041282316" duration="3599000" />
+      <workItem from="1499058880446" duration="106000" />
+      <workItem from="1499071243191" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="다음 로드뷰 연동 모듈 추가 및 KML 오버레이 추가">
       <created>1498440414871</created>
@@ -836,14 +763,21 @@
       <option name="project" value="LOCAL" />
       <updated>1498556695285</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="다음로드맵 추가">
+      <created>1498622200486</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1498622200486</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59804000" />
+    <option name="totallyTimeSpent" value="64350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -854,8 +788,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11216931" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21269841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -866,8 +800,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -887,7 +821,8 @@
     <MESSAGE value="다음 로드뷰 마커 및 인포윈도우 추가&#10;" />
     <MESSAGE value=" ZIUM GIS 페이지 추가 및 AJAX 기반 초기화 데이터 로딩 기능 추가.&#10;1) ZIUM GIS 파일럿 구축을 위한 테스트 페이지 추가 구성&#10;2) 데이터 로딩 후 정보 표출을 위한 AJAX API를 추가함. AJAX는 추후 개별 클라이언트의 JS로부터 기본 데이터를 호출받아 맵 초기화시 구성&#10;3) 부트스트랩 추가 : 부트스트랩을 통해 그리드 초기 작업 수행. 추후 다음 로드맵과 매시업 연계시 활용 예정" />
     <MESSAGE value="EPSG 모듈 추가&#10;&#10;1) WGS 84(EPSG4326) &lt;-&gt; Korea200(EPSG)5181 간 변환기능 모듈 및 API 추가&#10;예) localhost:9002/translateEPSG?latitude=33.47611947955653&amp;longitude=124.84886357164862 호출시 JSON 리턴&#10;&#10;해당기능은 proj4 오픈소스 활용 및 좌표계 인자 응용&#10;&#10;-Reference Site &#10;https://www.npmjs.com/package/proj4&#10;http://www.osgeo.kr/category/GIS%20%EC%9D%BC%EB%B0%98&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="EPSG 모듈 추가&#10;&#10;1) WGS 84(EPSG4326) &lt;-&gt; Korea200(EPSG)5181 간 변환기능 모듈 및 API 추가&#10;예) localhost:9002/translateEPSG?latitude=33.47611947955653&amp;longitude=124.84886357164862 호출시 JSON 리턴&#10;&#10;해당기능은 proj4 오픈소스 활용 및 좌표계 인자 응용&#10;&#10;-Reference Site &#10;https://www.npmjs.com/package/proj4&#10;http://www.osgeo.kr/category/GIS%20%EC%9D%BC%EB%B0%98&#10;" />
+    <MESSAGE value="다음로드맵 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="다음로드맵 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,14 +835,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -926,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="74" column="62" lean-forward="true" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1017,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +1017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,7 +1031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,23 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
           <caret line="293" column="32" lean-forward="false" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1177,7 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,55 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/ziumGisService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/daumRoadView.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/TranslateEPSG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogFile/4326_sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="101" lean-forward="false" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1241,72 +1087,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogFile/4326_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/Translater/TranslaterDaumToVworld.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="90" lean-forward="true" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/TranslateEPSG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/daumRoadView.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/ziumGisService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/debug/src/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="232" column="9" lean-forward="false" selection-start-line="232" selection-start-column="9" selection-end-line="232" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="112" lean-forward="true" selection-start-line="3" selection-start-column="112" selection-end-line="3" selection-end-column="113" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/daumRoadMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/ziumGisService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="627" column="12" lean-forward="false" selection-start-line="627" selection-start-column="12" selection-end-line="627" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="80" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
           <folding>
-            <marker date="1498614472849" expanded="false" signature="0:40" ph="/** Created by 안재열 on 2017-06-26. ...*/" />
-            <marker date="1498614472849" expanded="false" signature="143:403" ph="{&quot;basemapType&quot;: vw.ol3.BasemapType.GRAPHIC...}" />
-            <marker date="1498614472849" expanded="false" signature="719:1057" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="1081:1518" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="1892:1933" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="1963:1984" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="2015:2524" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="2552:2662" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="2707:3256" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="3301:3521" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="3566:3791" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="3848:4764" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="4803:6139" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="6184:6629" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="6652:7579" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="7609:7890" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="7969:8342" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="8370:8852" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="8876:8964" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="8987:9104" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="9131:9283" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="9310:9462" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="9488:9865" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="9894:10048" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="10073:11621" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="11648:11856" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="11882:12088" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="12112:12571" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="12604:13000" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="13037:13233" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="13236:13253" ph="/** 말풍선이벤트 ...*/" />
-            <marker date="1498614472849" expanded="false" signature="13278:13632" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="13659:14013" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="14041:14233" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="14263:14499" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="14529:14752" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="14787:15066" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="15100:15327" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="15359:15565" ph="{...}" />
-            <marker date="1498614472849" expanded="false" signature="15596:15800" ph="{...}" />
+            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#750#1088#0" expanded="false" />
+            <element signature="n#!!block;n#isMobile#0" expanded="false" />
+            <element signature="n#!!block;n#setMode#0" expanded="false" />
+            <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
+            <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
+            <element signature="n#!!block;n#setVisible#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
+            <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
+            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
+            <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
+            <element signature="n#!!block;n#addMarker#0" expanded="false" />
+            <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
+            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
+            <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
+            <element signature="n#!!block;n#hideMarker#0" expanded="false" />
+            <element signature="n#!!block;n#showMarker#0" expanded="false" />
+            <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#removeMarker#0" expanded="false" />
+            <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
+            <element signature="n#!!block;n#addPieChart#0" expanded="false" />
+            <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
+            <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
+            <element signature="n#!!block;n#clearChart#0" expanded="false" />
+            <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
+            <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
+            <element signature="n#!!doc;n#mClick1#0" expanded="false" />
+            <element signature="n#!!block;n#mClick1#0" expanded="false" />
+            <element signature="n#!!block;n#mClick2#0" expanded="false" />
+            <element signature="n#!!block;n#jsInit#0" expanded="false" />
+            <element signature="n#!!block;n#setColor#0" expanded="false" />
+            <element signature="n#!!block;n#setWidth#0" expanded="false" />
+            <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
+            <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
+            <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
+            <element signature="n#!!block;n#openAllPop#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/ziumGisService.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Business/Translater/TranslaterDaumToVworld.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
