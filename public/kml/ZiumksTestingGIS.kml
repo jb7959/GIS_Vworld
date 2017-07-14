@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Document>
+        <name>2012 Earthquakes, Magnitude 5</name>
+        <atom:author>
+            <atom:name>U.S. Geological Survey</atom:name>
+        </atom:author>
+        <atom:link href="http://earthquake.usgs.gov"/>
+        <Folder>
+       <Placemark id="2012 May 23 15:02:25.31 UTC">
+                       <name>M 5.9 - 2017 June 23, Won-Ju, Republic of Korea REGION</name>
+                       <magnitude>10</magnitude> //Meta
+                       <Point>
+                           <coordinates>127.082,36.335,0</coordinates>
+                       </Point>
+        </Placemark>
+
+               <Placemark id="2017 June 23 15:02:27.31 UTC">
+                               <name>M 5.9 -  2017 June 23, Dae-Jeon, Republic of Korea REGION</name>
+                               <magnitude>10</magnitude> //Meta
+                               <Point>
+                                   <coordinates>128.182,37.335,1</coordinates>
+                               </Point>
+                </Placemark>
+                       <Placemark id="2017 June 23 15:02:25.31 UTC">
+                                       <name>M 5.9 -  2017 June 23, 광주, Republic of Korea REGION</name>
+                                       <magnitude>10</magnitude> //Meta
+                                       <Point>
+                                           <coordinates>127.060,35.335,2</coordinates>
+                                       </Point>
+                        </Placemark>
+        </Folder>
+    </Document>
+</kml>

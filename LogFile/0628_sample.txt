@@ -1,0 +1,4 @@
+﻿lon	lat	title desc iconSize
+126.9681625	37.59140487	계측기 no_1	<b>년:</b>2007년<br><b>지역:</b>경기도<br><b>동(호)수:</b>206동 1101호<br><b>전기사용량:</b>12,000<button type="button" onclick="mashUpWithDaum(37.59140487,126.9681625,'계측기 no_1')">로드뷰보기</button>
+126.9663629	37.58564301	계측기 no_2	<b>년:</b>2007년<br><b>지역:</b>경기도<br><b>동(호)수:</b>206동 1101호<br><b>전기사용량:</b>12,001<button type="button" onclick="mashUpWithDaum(37.58564301,126.9663629,'계측기 no_2')">로드뷰보기</button>
+126.9680534	37.58499936	계측기 no_3	<b>년:</b>2007년<br><b>지역:</b>경기도<br><b>동(호)수:</b>206동 1101호<br><b>전기사용량:</b>12,002<button type="button" onclick="mashUpWithDaum(37.58499936,126.9680534,'계측기 no_3')">로드뷰보기</button>
