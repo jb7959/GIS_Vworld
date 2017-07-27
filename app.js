@@ -1,8 +1,4 @@
 var express = require('express');
-
-//CORS 크로스도메인 Ajax 지원코드
-var cors =require('cors');
-
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -23,6 +19,13 @@ var app = express();
 
 app.use(express.static('public'));
 
+//크로스도메인
+app.all('/*', function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    next();
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
@@ -34,7 +37,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(cors);
+
 app.use('/', index);
 app.use('/users', users);
 app.use('/gis', gis);
