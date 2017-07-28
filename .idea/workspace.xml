@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8881790-eafb-4928-b4a9-945fc269a2ee" name="Default" comment="다음로드맵 초기화 및 연동 개선&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LogFile/0628_sample.txt" afterPath="$PROJECT_DIR$/LogFile/0628_sample.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,61 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ziumGisService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/ziumGisService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2508">
-              <caret line="632" column="10" lean-forward="false" selection-start-line="632" selection-start-column="10" selection-end-line="632" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-                <element signature="e#750#1088#0" expanded="false" />
-                <element signature="n#!!block;n#isMobile#0" expanded="false" />
-                <element signature="n#!!block;n#setMode#0" expanded="false" />
-                <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
-                <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
-                <element signature="n#!!block;n#setVisible#0" expanded="false" />
-                <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
-                <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
-                <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
-                <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
-                <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
-                <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
-                <element signature="n#!!block;n#addMarker#0" expanded="false" />
-                <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-                <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
-                <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
-                <element signature="n#!!block;n#hideMarker#0" expanded="false" />
-                <element signature="n#!!block;n#showMarker#0" expanded="false" />
-                <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
-                <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
-                <element signature="n#!!block;n#removeMarker#0" expanded="false" />
-                <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
-                <element signature="n#!!block;n#addPieChart#0" expanded="false" />
-                <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
-                <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
-                <element signature="n#!!block;n#clearChart#0" expanded="false" />
-                <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
-                <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
-                <element signature="n#!!doc;n#mClick1#0" expanded="false" />
-                <element signature="n#!!block;n#mClick1#0" expanded="false" />
-                <element signature="n#!!block;n#mClick2#0" expanded="false" />
-                <element signature="n#!!block;n#jsInit#0" expanded="false" />
-                <element signature="n#!!block;n#setColor#0" expanded="false" />
-                <element signature="n#!!block;n#setWidth#0" expanded="false" />
-                <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
-                <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
-                <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
-                <element signature="n#!!block;n#openAllPop#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="daumRoadView.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -101,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/routes/kml.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -111,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/routes/log.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -121,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/routes/map.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -137,21 +87,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <file leaf-file-name="0628_sample.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="57">
+              <caret line="3" column="85" lean-forward="false" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="247">
+              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -171,6 +131,8 @@
       <find>japan</find>
       <find>distance</find>
       <find>9002</find>
+      <find>년</find>
+      <find>동(호)수</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -206,7 +168,6 @@
         <option value="$PROJECT_DIR$/routes/TranslateEPSG.js" />
         <option value="$PROJECT_DIR$/public/javascripts/daumRoadMap.js" />
         <option value="$PROJECT_DIR$/public/javascripts/ziumGisService.js" />
-        <option value="$PROJECT_DIR$/LogFile/0628_sample.txt" />
         <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/routes/map.js" />
         <option value="$PROJECT_DIR$/routes/kml.js" />
@@ -215,6 +176,7 @@
         <option value="$PROJECT_DIR$/routes/ziumGisService.js" />
         <option value="$PROJECT_DIR$/routes/log.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/LogFile/0628_sample.txt" />
       </list>
     </option>
   </component>
@@ -238,7 +200,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -271,9 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,13 +244,12 @@
             <path>
               <item name="ziumksGIS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ziumksGIS" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="LogFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ziumksGIS" type="b2602c69:ProjectViewProjectNode" />
               <item name="ziumksGIS" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ziumksGIS" type="b2602c69:ProjectViewProjectNode" />
@@ -301,7 +260,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -767,7 +728,8 @@
       <workItem from="1500007192771" duration="83000" />
       <workItem from="1500871812347" duration="729000" />
       <workItem from="1500873340146" duration="2221000" />
-      <workItem from="1501132961369" duration="4414000" />
+      <workItem from="1501132961369" duration="8367000" />
+      <workItem from="1501200105613" duration="1451000" />
     </task>
     <task id="LOCAL-00001" summary="다음 로드뷰 연동 모듈 추가 및 KML 오버레이 추가">
       <created>1498440414871</created>
@@ -822,11 +784,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77681000" />
+    <option name="totallyTimeSpent" value="83085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -836,11 +797,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19957536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-4" y="836" width="1920" height="175" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13177083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1151,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="12" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="2" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,15 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="214" lean-forward="false" selection-start-line="3" selection-start-column="214" selection-end-line="3" selection-end-column="214" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" column="74" lean-forward="false" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1199,47 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2508">
           <caret line="632" column="10" lean-forward="false" selection-start-line="632" selection-start-column="10" selection-end-line="632" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-            <element signature="e#750#1088#0" expanded="false" />
-            <element signature="n#!!block;n#isMobile#0" expanded="false" />
-            <element signature="n#!!block;n#setMode#0" expanded="false" />
-            <element signature="n#!!block;n#removeAllObject#0" expanded="false" />
-            <element signature="n#!!block;n#checkEventExists#0" expanded="false" />
-            <element signature="n#!!block;n#setVisible#0" expanded="false" />
-            <element signature="n#!!block;n#setThemeLayer4#0" expanded="false" />
-            <element signature="n#!!block;n#setThemeLayer5#0" expanded="false" />
-            <element signature="n#!!block;n#setThemeLayer6#0" expanded="false" />
-            <element signature="n#!!block;n#setThemeLayer9#0" expanded="false" />
-            <element signature="n#!!block;n#kmlLayerAdd#0" expanded="false" />
-            <element signature="n#!!block;n#addMarkerLayer#0" expanded="false" />
-            <element signature="n#!!block;n#addMarker#0" expanded="false" />
-            <element signature="n#!!block;n#checkMarkerParam#0" expanded="false" />
-            <element signature="n#!!block;n#addTextLayer#0" expanded="false" />
-            <element signature="n#!!block;n#isSelectMarker#0" expanded="false" />
-            <element signature="n#!!block;n#hideMarker#0" expanded="false" />
-            <element signature="n#!!block;n#showMarker#0" expanded="false" />
-            <element signature="n#!!block;n#hideAllMarker#0" expanded="false" />
-            <element signature="n#!!block;n#showAllMarker#0" expanded="false" />
-            <element signature="n#!!block;n#removeMarker#0" expanded="false" />
-            <element signature="n#!!block;n#removeAllMarker#0" expanded="false" />
-            <element signature="n#!!block;n#addPieChart#0" expanded="false" />
-            <element signature="n#!!block;n#pieChartHide#0" expanded="false" />
-            <element signature="n#!!block;n#pieChartShow#0" expanded="false" />
-            <element signature="n#!!block;n#clearChart#0" expanded="false" />
-            <element signature="n#!!block;n#jsCreatRoute#0" expanded="false" />
-            <element signature="n#!!block;n#jsAddRouteEvent#0" expanded="false" />
-            <element signature="n#!!doc;n#mClick1#0" expanded="false" />
-            <element signature="n#!!block;n#mClick1#0" expanded="false" />
-            <element signature="n#!!block;n#mClick2#0" expanded="false" />
-            <element signature="n#!!block;n#jsInit#0" expanded="false" />
-            <element signature="n#!!block;n#setColor#0" expanded="false" />
-            <element signature="n#!!block;n#setWidth#0" expanded="false" />
-            <element signature="n#!!block;n#jsSelectRoute#0" expanded="false" />
-            <element signature="n#!!block;n#jsRemoveRoute#0" expanded="false" />
-            <element signature="n#!!block;n#closeAllPop#0" expanded="false" />
-            <element signature="n#!!block;n#openAllPop#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,7 +1161,7 @@
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1262,7 +1169,7 @@
     <entry file="file://$PROJECT_DIR$/routes/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1270,7 +1177,7 @@
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1278,7 +1185,7 @@
     <entry file="file://$PROJECT_DIR$/routes/daumRoadView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1294,7 +1201,7 @@
     <entry file="file://$PROJECT_DIR$/routes/kml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1302,15 +1209,23 @@
     <entry file="file://$PROJECT_DIR$/routes/log.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="247">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LogFile/0628_sample.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="85" lean-forward="false" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
           <folding />
         </state>
       </provider>
